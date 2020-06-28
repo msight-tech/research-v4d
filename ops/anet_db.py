@@ -14,8 +14,8 @@ class Instance(object):
     """
 
     def __init__(self, idx, anno, vid_id, vid_info, name_num_mapping):
-        print vid_id
-        print anno
+        print(vid_id)
+        print(anno)
         self._starting, self._ending = anno['segment'][0], anno['segment'][1]
         self._str_label = anno['label']
         self._total_duration = vid_info['duration']
