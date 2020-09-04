@@ -42,7 +42,7 @@ Code for the ICLR 2020 paper [V4D: 4D Convolutional Neural Networks for Video-le
 
 For any questions, please feel free to reach 
 ```
-github@malong.com
+github@malongtech.com
 ```
 
 If you use this method or this code in your research, please cite as:
@@ -56,4 +56,4 @@ If you use this method or this code in your research, please cite as:
 
 ## License
 
-V4D is CC-BY-NC 4.0 licensed, as found in the [LICENSE](LICENSE) file. It is released for academic research / non-commercial use only. If you wish to use for commercial purposes, please contact bd@malong.com.
+V4D is CC-BY-NC 4.0 licensed, as found in the [LICENSE](LICENSE) file. It is released for academic research / non-commercial use only. If you wish to use for commercial purposes, please contact bd@malongtech.com.
