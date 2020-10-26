@@ -186,7 +186,7 @@ class VideoDataset(Dataset):
                     p += self.new_step#step_frames
 
         #images=images[::-1]
-        #process_data = self.transform(images)
+        process_data = self.transform(images)
         #print(id_list)
         return images
         #print "process_data.shape=",process_data.shape
@@ -203,7 +203,7 @@ class VideoDataset(Dataset):
             while len(video_reader)<=0:
                 index-=1
                 if index<0:
-                    index=len(video_infos)-1
+                    index=len(self.video_infos)-1
                 record = self.video_infos[index]
                 video_reader = decord.VideoReader('{}'.format(
                     osp.join(self.img_prefix, record.path)))
